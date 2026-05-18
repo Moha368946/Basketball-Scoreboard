@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>BASKETBALL COUNTER</h1>
+        
+        <div class="container">
+            <!-- Home sectionh -->
+            <div class="team-column">
+                <h3>HOME</h3>
+                <h2 id="count1-el">0</h2>
+                <button id="increment-btn1a" onclick="increment1a()">+1</button>
+                <button id="increment-btn2a" onclick="increment2a()">+2</button>
+                <button id="increment-btn3a" onclick="increment3a()">+3</button>
+            </div>
+
+            <!-- Guest section -->
+            <div class="team-column">
+                <h3>GUEST</h3>
+                <h2 id="count2-el">0</h2>
+                <button id="increment-btn1b" onclick="increment1b()">+1</button>
+                <button id="increment-btn2b" onclick="increment2b()">+2</button>
+                <button id="increment-btn3b" onclick="increment3b()">+3</button>
+            </div>
+        </div>
+        <button id="new-game" onclick="newGame()">NEW MATCH</button>
+        <script src="index.js"></script>
+    </body>
+</html>
