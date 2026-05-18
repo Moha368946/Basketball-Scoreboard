@@ -16,3 +16,8 @@ This project is a web-based basketball scoreboard application built using HTML, 
 1. Save `index.html`, `index.css`, and `index.js` in the same directory.
 2. Place the background image file named `istockphoto-499287000-612x612.jpg` into that same directory.
 3. Open `index.html` in any standard web browser to view and run the application.
+
+
+## Live Demo
+
+https://unique-licorice-d9a104.netlify.app/
